@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand img:hover
+{
+    transform: rotateY(360deg);
+    transition: 4s;
+}
+.logo-nav
+{
+    width: 50px;
+    height: 50px;
+}
+
+.yo-img
+{
+    padding-right: 10px;
+    width: 200px; 
+    height: 100%;
+    margin-left: 0;
+}
+.contacto
+{
+    text-align: center;
+}
+.margin-contacto
+{
+    margin-top: 100px;
+}
+.carousel-item img
+{
+  text-align: center;
+  border-radius: 50%;
+  width: 250px;
+  height: 500px;
+}
+.css-caroulse
+{
+    background-color: blue; 
+}
+
+a {
+    text-decoration: none;
+}
+
+.primera {
+    border: solid black 2px;
+}
+
+.segunda {
+    border: black solid 2px;
+    width: 60vw;
+}
+
+.segunda-dos img{
+    width: 30vw;
+}
+
+.tarjeta-imagen {
+    height: 15rem;
+}
+
+.card {
+    min-width: 7rem;
+}
+
+.images-card {
+    min-height: 10rem;
+    max-height: 30rem;
+}
+
+.div__card {
+    max-width: 360px;
+}
+
+.div__card:hover {
+    box-shadow: 100px solid gray;
+}
